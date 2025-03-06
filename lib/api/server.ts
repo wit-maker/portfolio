@@ -131,6 +131,6 @@ export const getStats = unstable_cache(
       ];
     }
   },
-  ['stats-data'],
+  ['projects-data'],
   { revalidate: 3600 } // 1時間ごとに再検証
 );
